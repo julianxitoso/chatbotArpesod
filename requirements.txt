@@ -1,0 +1,7 @@
+fastapi
+fastapi-cors
+uvicorn
+gunicorn
+httptools
+openai
+duckduckgo-search
