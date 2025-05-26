@@ -33,10 +33,15 @@ Empresa: ARPESOD ASOCIADOS SAS
 """
 
 # Configuración del cliente para OpenRouter
+
+# client = OpenAI(api_key="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",
+#                 base_url="https://openrouter.ai/api/v1")
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
     api_key=os.getenv("OPENROUTER_API_KEY"),
 )
+
+
 
 # --- Endpoint 1: Asistente Experto (Solo Manual) ---
 # Este es el chatbot rápido y especializado que solo responde sobre la plataforma.
